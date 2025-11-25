@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "f3903a59-4836-4d80-afb1-5e665630edd7",
+		"name": "TestingAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42605228",
+		"_collection_link": "https://xyz999-9963.postman.co/workspace/Project_30-05~3a7b26e3-ae21-43d4-8281-e9049da44f35/collection/42605228-f3903a59-4836-4d80-afb1-5e665630edd7?action=share&source=collection_link&creator=42605228"
+	},
+	"item": [
+		{
+			"name": "GET Request",
+			"item": [
+				{
+					"name": "TC01_SingleUserRequest",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres-free-v1",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://reqres.in/api/users/300",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"300"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
