@@ -36,6 +36,14 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "TC02_MultipleUserRequest",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			]
 		}
